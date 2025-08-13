@@ -51,7 +51,7 @@ public class TicketBooking {
     }
     public void makePayment(String credicard,String cvv,String name,double amount){
         this.amount=amount;
-        System.out.println("Amount "+this.amount+" paid using Master card\nCVV :"+cvv);
+        System.out.println("Amount "+this.amount+" paid using Master card\nCVV :"+cvv+"\nCredit card Number :"+credicard);
     }
 
     void display(){
