@@ -31,7 +31,7 @@ public class TicketBookingMain {
                 System.out.println("Enter amount");
                 double amount=sc.nextDouble();
                 tb.display();
-                tb.makePayment(walletNo,amount);
+                tb.makePayment(amount,walletNo);
             }
             case 3 ->{
                 System.out.println("Enter credit Card Number");

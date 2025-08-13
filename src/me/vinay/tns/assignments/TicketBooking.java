@@ -5,6 +5,7 @@ public class TicketBooking {
     private String customer;
     private int noOfSeats;
     private double amount;
+//    /private String walletNo;
 
     public String getStageEvent() {
         return stageEvent;
@@ -45,7 +46,8 @@ public class TicketBooking {
         System.out.println("Amount "+this.amount+" paid in cash");
     }
 
-    public void makePayment(String walletNo,double amount){
+    public void makePayment(double amount,String walletNo){
+//        this.walletNo=walletNo;
         this.amount=amount;
         System.out.println("Amount "+this.amount+" paid using wallet number"+walletNo);
     }
