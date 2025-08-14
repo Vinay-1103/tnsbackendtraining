@@ -41,7 +41,6 @@ public class TicketBookingMain {
                 String cvv=sc.nextLine();
                 System.out.println("Enter cardholder name");
                 String name=sc.nextLine();
-               // sc.nextLine();
                 System.out.println("Enter amount");
                 double amount = sc.nextDouble();
                 tb.display();
