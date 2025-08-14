@@ -34,7 +34,17 @@ public class Person {
         public void setGender(String gender) {
             this.gender = gender;
         }
-        public void display(){
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
+
+    public void display(){
             System.out.println("Name : "+this.name);
             System.out.println("Age : "+this.age);
             System.out.println("Gender : "+this.gender);
