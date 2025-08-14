@@ -5,7 +5,6 @@ public class TicketBooking {
     private String customer;
     private int noOfSeats;
     private double amount;
-//    /private String walletNo;
 
     public String getStageEvent() {
         return stageEvent;
