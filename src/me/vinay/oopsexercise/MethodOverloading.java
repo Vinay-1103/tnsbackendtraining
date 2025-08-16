@@ -17,9 +17,9 @@ public class MethodOverloading {
         public static void main(String[] args) {
             MethodOverloading obj=new MethodOverloading();
             System.out.println(obj.add(1,20)) ;
-//        print(5);
-//        print("Vinay");
-//        print(8.5);
+        print(5);
+        print("Vinay");
+        print(8.5);
         }
     }
 
