@@ -46,7 +46,6 @@ public class TicketBooking {
     }
 
     public void makePayment(double amount,String walletNo){
-//        this.walletNo=walletNo;
         this.amount=amount;
         System.out.println("Amount "+this.amount+" paid using wallet number"+walletNo);
     }
