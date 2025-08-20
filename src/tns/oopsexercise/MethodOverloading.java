@@ -1,4 +1,4 @@
-package me.vinay.oopsexercise;
+package tns.oopsexercise;
 
 public class MethodOverloading {
         static  void print(int a){

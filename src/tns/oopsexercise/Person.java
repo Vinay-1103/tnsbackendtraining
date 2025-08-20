@@ -1,4 +1,4 @@
-package me.vinay.oopsexercise;
+package tns.oopsexercise;
 
 public class Person {
         private String name;

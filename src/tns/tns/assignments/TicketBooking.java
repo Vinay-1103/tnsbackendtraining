@@ -1,4 +1,4 @@
-package me.vinay.tns.assignments;
+package tns.tns.assignments;
 
 public class TicketBooking {
     private String stageEvent;
