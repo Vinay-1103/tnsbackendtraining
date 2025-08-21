@@ -6,12 +6,12 @@ public class ATMmain {
     public static void main(String[] args) {
             ATM atm=new ATM();
             Scanner sc=new Scanner(System.in);
-        try {
             String option;
+            do{
+        try {
             System.out.print("Enter Password :");
             int pass=sc.nextInt();
             int result=atm.validatePassword(pass);
-            do{
             if (result==1){
                 System.out.println("*******Welcome*******");
                 System.out.println("1.CheckBalance");
@@ -23,6 +23,7 @@ public class ATMmain {
                         atm.balanceInAccount();
                     }
                     case 2->{
+
                         System.out.println("Enter amount :");
                         double amount=sc.nextDouble();
                         atm.withdraw(amount);
@@ -35,13 +36,14 @@ public class ATMmain {
                     default -> System.out.println("Invalid choice");
                 }
             }
+        }catch (InvalidPinException e){
+            System.out.println(e.getMessage());
+        }
+        catch (InsufficientBalanceException e) {
+            System.out.println(e.getMessage());
+        }
                 System.out.println("Enter 1 for goto options ,press any key for Exit ");
                 option=sc.next();
             }while (option.equals("1"));
-        }catch (InvalidPinException e){
-            System.out.println(e.getMessage());
-        } catch (InsufficientBalanceException e) {
-            throw new RuntimeException(e);
-        }
     }
 }
