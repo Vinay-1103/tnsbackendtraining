@@ -23,7 +23,6 @@ public class ATMmain {
                         atm.balanceInAccount();
                     }
                     case 2->{
-
                         try{System.out.println("Enter amount :");
                         double amount=sc.nextDouble();
                         atm.withdraw(amount);
