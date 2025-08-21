@@ -14,7 +14,7 @@ public  class ATM {
     }
      void withdraw(double amount) throws InsufficientBalanceException{
         if (amount>balance){
-            throw new InsufficientBalanceException("Insufficent balance,Enter valid amount");
+            throw new InsufficientBalanceException("Insufficent balance,Check Balance ,Enter valid amount");
         }
          balance-=amount;
          System.out.printf("Withdrawn amount :%.3f |Balance in Account :%.3f ",amount,balance);
