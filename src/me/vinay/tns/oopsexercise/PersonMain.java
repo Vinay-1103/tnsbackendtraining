@@ -1,4 +1,4 @@
-package tns.oopsexercise;
+package me.vinay.tns.oopsexercise;
 
 public class PersonMain {
         public static void main(String[] args) {

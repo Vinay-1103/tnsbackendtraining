@@ -1,6 +1,4 @@
-package tns.arrays;
-
-import java.util.Arrays;
+package me.vinay.tns.arrays;
 
 //package me.vinay.arrays;
 //

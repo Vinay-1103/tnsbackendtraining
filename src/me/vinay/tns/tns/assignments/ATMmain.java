@@ -1,4 +1,4 @@
-package tns.tns.assignments;
+package me.vinay.tns.tns.assignments;
 
 import java.util.Scanner;
 

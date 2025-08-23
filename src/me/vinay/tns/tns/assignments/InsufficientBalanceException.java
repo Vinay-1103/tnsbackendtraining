@@ -1,4 +1,4 @@
-package tns.tns.assignments;
+package me.vinay.tns.tns.assignments;
 
 public class InsufficientBalanceException extends Exception{
     public InsufficientBalanceException(String msg){

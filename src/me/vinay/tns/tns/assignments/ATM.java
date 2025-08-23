@@ -1,4 +1,4 @@
-package tns.tns.assignments;
+package me.vinay.tns.tns.assignments;
 
 public  class ATM {
     private double balance=10000.94;
