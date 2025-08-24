@@ -1,4 +1,4 @@
-package me.vinay.tns.oopsexercise;
+package me.vinay.tns.oopsexercise.encapsulation;
 
 public class StudentMain {
     public static void main(String[] args) {
