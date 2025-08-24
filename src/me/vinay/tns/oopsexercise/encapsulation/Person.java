@@ -1,4 +1,4 @@
-package me.vinay.tns.oopsexercise;
+package me.vinay.tns.oopsexercise.encapsulation;
 
 public class Person {
         private String name;
