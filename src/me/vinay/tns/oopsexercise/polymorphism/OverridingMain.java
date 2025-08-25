@@ -17,5 +17,6 @@ public class OverridingMain {
         person=new Person("Vinay Kumar");
         person.displayDetails();
         person.greet();
+
     }
 }
