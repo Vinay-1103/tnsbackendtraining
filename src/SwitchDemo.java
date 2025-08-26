@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class SwitchDemo {
 
-
         public static void main(String[] args) {
             enum Day{Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday}
             Day day=Day.Monday;
