@@ -1,7 +1,6 @@
 package me.vinay.tns.tns.assignments;
 
 import java.util.Scanner;
-
 public class ATMmain {
     public static void main(String[] args) {
             ATM atm=new ATM();
