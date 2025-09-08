@@ -5,7 +5,6 @@ Welcome to the **TNS Backend Training Repository**!
 This repository contains hands-on Java code, exercises, and project work developed during the Java backend training sessions.
 
 ---
-
 ## 📚 Topics Covered
 
 - Java Fundamentals
