@@ -1,6 +1,7 @@
 package me.vinay.tns.exceptionhandling;
 
 public class CustomException {
+        
         static void authrnticate(String Username,String password) throws InvalidCredentialException {
             String vaildUsename = "Vinay";
             String validpassword = "Vinay@786";
