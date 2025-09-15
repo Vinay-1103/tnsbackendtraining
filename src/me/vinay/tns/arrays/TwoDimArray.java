@@ -16,7 +16,6 @@ public class TwoDimArray {
         arr[2][0] = 7;
         arr[2][1] = 8;
         arr[2][2] = 9;
-
         //to access elements in 2D Array:
         for(int row=0; row< arr.length; row++){
             for(int col=0; col<arr[row].length; col++){
