@@ -15,7 +15,7 @@ public class StudentMain {
             Collections.sort(students);
 
             System.out.println("Sorted Students by Marks:");
-            for (Student ans : students) {
+            for (Student ans : students){
                 System.out.println(ans);
             }
         }
