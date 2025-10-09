@@ -1,8 +1,7 @@
 package me.vinay.tns.collections.comparable;
 
 public class Student  implements Comparable<Student> {
-        //can compare myself with another object
-        //since compareTo(classname object) is abstract method it must be implemented
+        
         int sid;
         String name;
         int marks;
