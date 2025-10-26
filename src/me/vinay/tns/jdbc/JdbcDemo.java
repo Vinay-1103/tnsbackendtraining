@@ -6,6 +6,7 @@ import java.sql.Statement;
 
 public class JdbcDemo {
 
+    
         public static void main(String[] args) {
             // Step 1: Database connection info
             String url = "jdbc:postgresql://localhost:5432/postgres";
