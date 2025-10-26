@@ -11,6 +11,7 @@ public class StudentMain {
             for(Student val: s1){
                 System.out.print(val +" "+"\n");
             }
+                
         }
     }
 

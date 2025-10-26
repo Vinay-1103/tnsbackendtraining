@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class StudentMain {
+        
         public static void main(String[] args) {
             List<Student> students = new ArrayList<>();
             students.add(new Student(101, "Yuvi", 100));

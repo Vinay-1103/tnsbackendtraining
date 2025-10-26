@@ -9,6 +9,7 @@ public class Consumer extends  Thread{
         Consumer(SharedResource resource) {
             this.resource = resource;
         }
+    
 
         public void run() {
             for (int i = 1; i <= 5; i++) { // Consuming 5 items
